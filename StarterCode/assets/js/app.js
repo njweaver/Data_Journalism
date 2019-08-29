@@ -76,7 +76,7 @@ d3.csv('assets/data/data.csv').then(function(stateData){
                 .attr("opacity", ".5")
  
    
-    var textGroup = chartGroup.selectAll("text")
+    var textGroup = chartGroup.selectAll(".circletext")
                .data(stateData)
                .enter()
                .append("text")
